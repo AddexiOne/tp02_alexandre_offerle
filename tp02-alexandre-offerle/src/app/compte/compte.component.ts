@@ -30,5 +30,14 @@ export class CompteComponent {
       ${this.email}
       ${this.login} ${this.password}
     `;
+    alert(`
+      ${this.civility} ${this.name} ${this.firstName}
+      ${this.address}
+      ${this.postalCode} ${this.city}
+      ${this.country}
+      ${this.phone}
+      ${this.email}
+      ${this.login} ${this.password}
+    `);
   }
 }
