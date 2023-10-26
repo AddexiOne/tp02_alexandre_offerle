@@ -1,0 +1,51 @@
+<form>
+   <div >
+      <label>{{name}}</label>
+      <input [(ngModel)]="name" type="text" id="nom" name="nom" required>
+   </div>
+   <div>
+      <label for="prenom">{{firstName}}</label>
+      <input [(ngModel)]="firstName" type="text" id="prenom" name="prenom" required>
+   </div>
+   <div>
+      <label for="adresse">{{address}}</label>
+      <input [(ngModel)]="address" type="text" id="adresse" name="adresse" required>
+   </div>
+   <div>
+      <label for="cp">{{postalCode}}</label>
+      <input [(ngModel)]="postalCode" type="text" id="cp" name="cp" required>
+   </div>
+   <div>
+      <label for="ville">{{city}}</label>
+      <input [(ngModel)]="city" type="text" id="ville" name="ville" required>
+   </div>
+   <div>
+      <label for="tel">{{phone}}</label>
+      <input [(ngModel)]="phone" type="text" id="tel" name="tel" required>
+   </div>
+   <div>
+      <label for="email">{{email}}</label>
+      <input [(ngModel)]="email" type="text" id="email" name="email" required>
+   </div>
+   <div>
+      <label for="civilite">{{civility}}</label>
+      <input [(ngModel)]="civility" type="text" id="civilite" name="civilite" required>
+   </div>
+   <div>
+      <label for="password">{{password}}</label>
+      <input [(ngModel)]="password" type="text" id="password" name="password" required>
+   </div>
+   <div>
+      <label for="login">{{login}}</label>
+      <input [(ngModel)]="login" type="text" id="login" name="login" required>
+   </div>
+   <div>
+      <label for="pays">{{country}}</label>
+      <input [(ngModel)]="country" type="text" id="pays" name="pays" required>
+   </div>
+   <div>
+      <button (ngSubmit)="onSubmit()" type="submit">Submit</button>
+   </div>
+
+   <h1>{{resume}}</h1>
+</form>
